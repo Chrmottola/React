@@ -1,0 +1,11 @@
+/* Hoja de Estilo de intro */
+
+.contenedor_img{
+  background-color: yellow;
+}
+
+
+.img_granos{
+  width: 50%;
+  height: 50%;
+}
