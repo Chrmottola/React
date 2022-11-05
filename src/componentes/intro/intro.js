@@ -1,6 +1,7 @@
 import React from "react";
 import "./intro.css";
 import granos from "./granos.jpg"
+import CustomButton from "../Botton/customButton";
 
 // Parametrizamos la funcion intro (titulo) 
 // podemos usar titulo combiando su valor en 
@@ -12,8 +13,11 @@ const Intro=({titulo,subtitulo})=>{
   return(
   <div className="contenedor_img">
     <h1>{titulo}</h1>
-    <h2>{subtitulo}</h2>
     <img src={granos} className="img_granos" alt="Foto Perfil"/>
+    <h2>{subtitulo}</h2>
+    <CustomButton color="Red" texto="Boton Intro"/>
+    <CustomButton color="blue" texto="Boton Salir"/>
+  
   </div>
 )
 };
