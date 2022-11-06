@@ -1,3 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
 .App {
   text-align: center;
 }
@@ -38,21 +47,3 @@
   }
 }
 
-.div_react{
-  background-color: red;
-  height: 10rem;
-
-}
-
-.h3_react{
-  font-size: 3rem;
-  animation: h3_react infinite 2s linear;
-}
-@keyframes h3_react{
-  from{
-    transform: rotate(0deg);
-  }
-  to{
-    transform: rotate(360deg);
-}
-}

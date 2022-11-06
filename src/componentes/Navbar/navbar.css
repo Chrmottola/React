@@ -1,0 +1,30 @@
+
+.nav_Navbar{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.nav_Navbar h2{
+  margin-left: 1rem;
+}
+
+.nav_Navbar ul{
+  display: flex; 
+  justify-content:space-between;
+  gap: 30px;
+
+}
+
+.nav_Navbar li{
+  display: flex;
+  list-style: none;
+}
+
+.nav_Navbar a{
+  display: flex;
+  text-decoration: none;
+  margin-right: 1rem;
+
+}

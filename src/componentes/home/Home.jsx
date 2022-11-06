@@ -2,7 +2,7 @@
 // y tambien importamos hoja de stilos css
 
 import React from "react";
-import Intro from "../intro/intro";
+import Intro from "../intro/Intro";
 import "./home.css";
 
 // Generamos la funcion. en este caso

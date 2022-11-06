@@ -1,7 +1,7 @@
 import React from "react";
 import "./intro.css";
 import granos from "./granos.jpg"
-import CustomButton from "../Botton/customButton";
+import CustomButton from "../Botton/CustomButton";
 
 // Parametrizamos la funcion intro (titulo) 
 // podemos usar titulo combiando su valor en 
