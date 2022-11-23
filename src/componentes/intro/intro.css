@@ -1,11 +1,15 @@
 /* Hoja de Estilo de intro */
 
+
 .contenedor_img{
-  background-color:rgb(122, 72, 21);
+  background-color: #513919;
+  background-image: linear-gradient(43deg, #513919 0%, #785334 30%, #8f7f5e 66%, #b3a483 100%);
+  
 }
 
 
 .img_granos{
-  width: 50%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
 }
+

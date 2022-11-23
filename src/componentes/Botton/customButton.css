@@ -9,3 +9,9 @@
   background-color: blueviolet;
   margin: 0.5rem;
 }
+
+.customButton:hover{
+  opacity: 0.5;
+  font-size: large;
+}
+
